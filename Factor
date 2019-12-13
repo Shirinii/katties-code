@@ -1,0 +1,4 @@
+A, I = map(int, input().split())
+if 1 <= A and I <= 100:
+    print(A*(I-1) + 1)
+
