@@ -1,0 +1,4 @@
+n, h, v = map(int, input().split())
+if (2 <= n <= 10000)and (0 < h < n) and (0 < v < n):
+    s = max(h, n-h) * max(v, n-v) * 4
+    print(s)
