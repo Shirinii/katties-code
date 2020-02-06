@@ -1,0 +1,6 @@
+n, p = map(int, input().split())
+i = 1
+while n >=i:
+     input()
+     i += 1
+print(p)
