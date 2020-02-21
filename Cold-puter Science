@@ -1,0 +1,13 @@
+y = 'yes'
+while y =='yes':
+    s =[]
+    i = 0
+    z = 0
+    n = int(input())
+    t = list(map(int, input(). split()))
+    t[i] = int(t[i])
+    for i in range(len(t)):
+        if t[i] <0:
+            z += 1
+    print(z)
+print("do ypu want to continue: y or n")
