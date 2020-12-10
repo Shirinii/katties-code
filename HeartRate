@@ -1,0 +1,11 @@
+num_cases = int(input())
+for i in range(num_cases):
+    beats, rest = input().split()
+    beats = int(beats)
+    rest = float(rest)
+    min_abpm = 60*(beats-1)/rest
+    bpm = 60*beats/rest
+    max_abpm = 60*(beats+1)/rest
+    print(round(min_abpm, 4), round(bpm, 4), round(max_abpm, 4))
+
+
