@@ -1,0 +1,9 @@
+a = int(input())
+b = [input() for a in range(a)]
+c = []
+for i in  b:
+    c.append(i)
+c.reverse()
+for j in c:
+    j = int(j)
+    print(j)
