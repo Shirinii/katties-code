@@ -1,0 +1,9 @@
+n = int(input())
+a =[]
+for _ in range(n):
+    t = int(input())
+    tests = input().split()
+    tests = [int(i) for i in tests]
+    dist = max(tests) - min(tests)
+    dist = dist * 2
+    print(dist)
