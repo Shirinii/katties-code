@@ -1,0 +1,11 @@
+word = (input().split())
+s = []
+for i in word:
+    if i not in s:
+        s.append(i)
+if len(s) == len(word):
+    print("yes")
+else:
+    print("no")
+
+
